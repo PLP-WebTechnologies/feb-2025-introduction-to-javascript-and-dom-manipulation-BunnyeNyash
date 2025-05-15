@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript DOM Demo</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to external JavaScript file -->
+    <script src="script.js" defer></script>
+    <!-- Google Font for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://www.pexels.com/favicon.ico">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">MySite</div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-toggle-label">☰</label>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Interactive Section -->
+    <main>
+        <section class="interactive">
+            <h1 id="main-title">Welcome to the DOM Playground</h1>
+            <p id="main-text">Click the buttons below to interact with this page!</p>
+            <button id="change-text">Change Text</button>
+            <button id="change-style">Change Style</button>
+            <button id="add-element">Add Element</button>
+            <button id="remove-element">Remove Last Element</button>
+            <ul id="dynamic-list">
+                <li>Initial Item 1</li>
+                <li>Initial Item 2</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Interactive JavaScript Demo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
